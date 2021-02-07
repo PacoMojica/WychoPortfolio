@@ -5,7 +5,7 @@ function PageLoading() {
 
   return (
     <Dimmer active className='Dimmer'>
-      <Loader>Loading</Loader>
+      <Loader>Loading ...</Loader>
     </Dimmer>
   );
 }
