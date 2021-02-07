@@ -6,3 +6,11 @@
   background-size: cover;
   background-position: center;
 }
+
+.Links {
+  display: inline-flex;
+}
+
+.Links * {
+  margin-right: 2rem;
+}

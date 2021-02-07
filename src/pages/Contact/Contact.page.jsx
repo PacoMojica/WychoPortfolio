@@ -1,8 +1,7 @@
 import Menu from '../../components/Menu';
-import Footer from '../../components/Footer';
 import { useEffect } from 'react';
 import { useMenu } from '../../providers/Menu';
-import { Container, Segment, Header, Divider } from 'semantic-ui-react';
+import { Container, Segment, Header, Divider, Icon } from 'semantic-ui-react';
 
 import './Contact.css';
 
@@ -39,8 +38,20 @@ function Contact() {
           <Header.Content>contact@wychomojica.com</Header.Content>
         </Header>
         <Divider inverted />
+        <Header icon textAlign='center' inverted>
+          <Header.Content>
+            <div className='Links'>
+              <a target="_blank" rel="noreferrer" href='https://www.instagram.com/lofi_hooman/'>
+                <Icon name='instagram' size='big' />
+              </a>
+              <a href="mailto:contact@wychomojica.com">
+                <Icon name='mail outline' size='big' />
+              </a>
+            </div>
+          </Header.Content>
+        </Header>
+        <Divider inverted />
       </Container>
-      <Footer />
     </div>
   );
 }

@@ -15,7 +15,7 @@ function MyMenu() {
 
   return (
     <Segment className='Segment' inverted >
-      <Menu pointing secondary inverted size='large' className='Menu'>
+      <Menu pointing secondary stackable inverted size='large' className='Menu'>
         <Menu.Item
           name='home'
           header
