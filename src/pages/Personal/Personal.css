@@ -6,7 +6,7 @@
 }
 
 .Gallery img {
-  height: 170px;
+  max-height: 170px;
   margin: 0 0 0.66rem 0;
   cursor: pointer;
 }
