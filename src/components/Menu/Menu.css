@@ -1,0 +1,12 @@
+.Segment {
+  border: none !important;
+  border-radius: 0 !important;
+  box-shadow: none !important;
+  background-color: rgba(0, 0, 0, 0) !important;
+  /* backdrop-filter: saturate(90%) blur(0.3rem);
+  background-color: rgba(#000000, 0.62); */
+}
+
+.Menu {
+  border: none !important;
+}

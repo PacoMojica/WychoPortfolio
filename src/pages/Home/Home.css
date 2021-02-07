@@ -1,0 +1,8 @@
+.Main-home {
+  height: 100vh;
+  background-image: url(Portada.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+}
