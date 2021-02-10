@@ -42,4 +42,10 @@
 .Gallery img {
   width: 100%;
   cursor: pointer;
+  transition: 0.66s;
+  border-bottom: 2px #03030F solid;
+}
+
+.Gallery img:hover {
+  border-bottom: 2px #fffff0 solid;
 }
